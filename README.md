@@ -1,6 +1,3 @@
-
-# FOR THE IMPATIENT
-
 # How To Run
 --------------------------------
 To import a new graph, access the input.txt file, then enter the number of vertices in your graph - maximum 999,  and the connections between the vertices․ And if you want to see the work directly, do the following steps.
