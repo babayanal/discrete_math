@@ -7,6 +7,7 @@ To import a new graph, access the input.txt file, then enter the number of verti
 Writing **make** the program will create the file *my_project* to enter the system you need to write **make run** for cleaning write **make clean**
 
 `` make ``
+
 `` make run ``
 
 then 
