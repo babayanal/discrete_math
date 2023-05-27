@@ -17,11 +17,13 @@ $(EXECUTABLE):
 clean:
 		@echo "Cleaning the temprorary files"
 		@-rm $(EXECUTABLE)
+		@-rm *.png
+		@-rm *.gv
 
 .PHONY: run
 run: $(EXECUTABLE)
 		@echo "Running the tests"
 		@ ./$(EXECUTABLE)
-		@feh *.png
+		@feh new.png
 
 

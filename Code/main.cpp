@@ -14,5 +14,5 @@ int main()
     getDataFromFile(adjVector, adjacencyMatrix);
     printAdjacencyMatrix(adjacencyMatrix, vertices);
     findArticulationPoints(adjVector, vertices);
-	system("dot -Tpng graph.gv -o graph.png");
+	system("dot -Tpng new.gv -o new.png");
 }
