@@ -2,12 +2,12 @@
 #define PRINTADJACENCYMATRIX_HPP
 
 /* 
-*brief: Coordinates to X, Y
+ Coordinates to X, Y
 */
 void gotoxy(int, int);
 
 /* 
-*brief: Prints adjacency matrix of graph
+ Prints adjacency matrix of graph
 */
 void printAdjacencyMatrix(int [][maxSize], int);
 

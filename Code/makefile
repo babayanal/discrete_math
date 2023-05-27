@@ -11,7 +11,7 @@ export TEMP_FILES := $(OBJ_FILES) $(DEP_FILES) $(EXECUTABLE)
 
 $(EXECUTABLE):  
 		@echo "Compiling $<"
-		@g++  $(SOURCE_FILES)  -o $(EXECUTABLE) -lgvc
+		@g++  $(SOURCE_FILES)  -o $(EXECUTABLE) 
 
 .PHONY: clean
 clean:
@@ -22,5 +22,6 @@ clean:
 run: $(EXECUTABLE)
 		@echo "Running the tests"
 		@ ./$(EXECUTABLE)
+		@feh *.png
 
 
