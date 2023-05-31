@@ -1,7 +1,7 @@
 # How To Run
 --------------------------------
 To import a new graph, access the input.txt file, then enter the number of vertices in your graph - maximum 999,  and the connections between the vertices․ And if you want to see the work directly, do the following steps.
-Writing **make** the program will create the file *my_project* to enter the system you need to write **make run** for cleaning write **make clean**
+Writing **make** the program will create the file *my_project*, to enter the system you need to write **make run**, for cleaning write **make clean**
 
 `` make ``
 
