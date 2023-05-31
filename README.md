@@ -32,7 +32,6 @@ For **feh**
 # Terms
 --------------------------------
 **Graph** a structure made of vertices and edges.
-**Adjacency matrix** a matrix with rows and columns labeled by graph vertices, with a 1 or 0 in position according to whether and. are adjacent or not.
 **Articulation points** a vertex whose removal from the graph increases its number of connected components.
 
 
